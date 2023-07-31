@@ -1,0 +1,90 @@
+.card img{
+    width: 400px;
+    height: 410px;
+}
+.card{
+    width: 400px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 7px;
+    
+}
+
+.other button{
+    background-color:  transparent;
+    border-radius: 5px ;
+    border: 2px solid#447ab8;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    color: #447ab8;
+    cursor: pointer;
+
+}
+
+.other{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid gray;
+
+}
+.other p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.button2 button{
+background-color: #17bd46;
+border-radius: 5px;
+border: 1px solid #17bd46;
+height: 40px;
+width: 200px;
+color: white;
+font-size: 20px;
+margin-left: 8%;
+margin-top: 10px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+.blockdown p {
+font-size: 20px;
+margin-left: 5%;
+
+}
+.basketbut{
+    font-size: 20px;
+color: red;
+padding-bottom: 20px;
+padding-left: 35px;
+
+}
+
+.add a{
+    display: inline;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+.delete{
+    display: none;
+}
+
+.rodBlock{
+    position: relative;
+}
+
+.adddetail{
+    display: inline;
+    width: 200px;
+    background-color: rgb(239, 237, 234);
+    position: absolute;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) ;
+    left: 110px;
+    bottom: 25px;
+}
+.deletedetail{
+    display: none;
+}
